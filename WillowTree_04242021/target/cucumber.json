@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6929000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on Landing page",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.user_on_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-25T22:17:27.061Z",
+        "line": 8,
+        "name": "Verify page title and counters",
+        "description": "",
+        "id": "name-game-landing-page-verifications;verify-page-title-and-counters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2129000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User able to see page title : name game",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.user_able_to_see_page_title_name_game()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2184000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to see current numbers on counters",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.user_able_to_see_current_numbers_on_counters()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC001"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 726000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on Landing page",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.user_on_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-25T22:17:38.554Z",
+        "line": 13,
+        "name": "Verify the Counters functionality",
+        "description": "",
+        "id": "name-game-landing-page-verifications;verify-the-counters-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79885000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify Streak Counters incrementing After four Streak",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verifyStreakCountersIncrementingAfterFourStreak()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4053000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that correct counter is four",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verify_that_correct_counter_is_four()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2077000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify that tries counter is four",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verify_that_tries_counter_is_four()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9500000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on every wrong picture in one session",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.click_on_every_wrong_picture_in_one_session()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2078000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify that correct counter is became four",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verify_that_correct_counter_is_became_four()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2081000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify that tries counter is became eight",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verify_that_tries_counter_is_became_eight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2046000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify that incorrect answers reset Streak counter",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verifyThatIncorrectAnswersResetStreakCounter()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC002"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on Landing page",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.user_on_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-25T22:19:21.044Z",
+        "line": 23,
+        "name": "Verify the opening of new session after correct answer",
+        "description": "",
+        "id": "name-game-landing-page-verifications;verify-the-opening-of-new-session-after-correct-answer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14305000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify names and photos not duplicated on Landing page",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verifyNamesAndPhotosOnLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52200000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify that photos changed",
+            "match": {
+              "location": "exp.willowTree.step_definitions.LandingPageStepDefinitions.verify_that_photos_changed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC003"
+          }
+        ]
+      }
+    ],
+    "name": "Name Game landing page verifications",
+    "description": "  I want to be able to see page title and verify counters are incrementing",
+    "id": "name-game-landing-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/landing.feature",
+    "tags": []
+  }
+]
